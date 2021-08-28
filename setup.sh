@@ -27,7 +27,7 @@ echo "$host" >> /var/lib/premium-script/ipvps.conf
 echo "$host" >> /etc/v2ray/domain
 wget https://raw.githubusercontent.com/rezakojexs/AutoScriptSSH/main/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 wget https://raw.githubusercontent.com/rezakojexs/AutoScriptSSH/main/ins-vt.sh && chmod +x ins-vt.sh && sed -i -e 's/\r$//' ins-vt.sh && screen -S v2ray ./ins-vt.sh
-wget https://raw.githubusercontent.com/rezakojexs/AutoScriptSSH/main/ins-vt.sh && chmod +x go.sh && sed -i -e 's/\r$//' go.sh && screen -S go ./go.sh
+wget https://raw.githubusercontent.com/rezakojexs/AutoScriptSSH/main/go.sh && chmod +x go.sh && sed -i -e 's/\r$//' go.sh && screen -S go ./go.sh
 wget https://raw.githubusercontent.com/rezakojexs/AutoScriptSSH/main/websocket.sh && chmod +x websocket.sh && screen -S websocket ./websocket.sh
 wget https://raw.githubusercontent.com/rezakojexs/AutoScriptSSH/main/ipsec.sh && chmod +x ipsec.sh && screen -S ipsec ./ipsec.sh
 apt-get install unzip
