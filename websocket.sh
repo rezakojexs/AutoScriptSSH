@@ -1,17 +1,17 @@
 #!/bin/bash
 clear
-echo Installing Websocket-SSH AUTOSCRIPT BY HABLESSH
+echo Installing Websocket-SSH AUTOSCRIPT BY Kojexs
 sleep 2
 echo Cek Hak Akses...
 sleep 0.5
 cd
 #Install system auto run
-wget -O /etc/systemd/system/ws-ssh.service https://raw.githubusercontent.com/Aantonberkentod/AutoScriptSSH/main/ws-ssh.service && chmod +x /etc/systemd/system/ws-ssh.service
-wget -O /etc/systemd/system/ws-ovpn.service https://raw.githubusercontent.com/Aantonberkentod/AutoScriptSSH/main/ws-ovpn.service && chmod +x /etc/systemd/system/ws-ovpn.service
+wget -O /etc/systemd/system/ws-ssh.service https://raw.githubusercontent.com/rezakojexs/AutoScriptSSH/main/ws-ssh.service && chmod +x /etc/systemd/system/ws-ssh.service
+wget -O /etc/systemd/system/ws-ovpn.service https://raw.githubusercontent.com/rezakojexs/AutoScriptSSH/main/ws-ovpn.service && chmod +x /etc/systemd/system/ws-ovpn.service
 #Install Websocket-SSH
 
-wget -O /usr/local/bin/ws-ssh https://raw.githubusercontent.com/Aantonberkentod/AutoScriptSSH/main/ws-ssh && chmod +x /usr/local/bin/ws-ssh
-wget -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/Aantonberkentod/AutoScriptSSH/main/ws-ovpn && chmod +x /usr/local/bin/ws-ovpn
+wget -O /usr/local/bin/ws-ssh https://raw.githubusercontent.com/rezakojexs/AutoScriptSSH/main/ws-ssh && chmod +x /usr/local/bin/ws-ssh
+wget -O /usr/local/bin/ws-ovpn https://raw.githubusercontent.com/rezakojexs/AutoScriptSSH/main/ws-ovpn && chmod +x /usr/local/bin/ws-ovpn
 
 #Enable & Start ws-ssh service
 systemctl enable ws-ssh.service
