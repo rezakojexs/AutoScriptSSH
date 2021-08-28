@@ -44,7 +44,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       {
       "v": "2",
       "ps": "${user}",
-      "add": "myvpn-edu.hablestore.me",
+      "add": "Masukkan-Bug-Mu,
       "port": "80",
       "id": "${uuid}",
       "aid": "2",
