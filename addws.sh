@@ -34,7 +34,7 @@ cat>/etc/v2ray/$user-tls.json<<EOF
       "id": "${uuid}",
       "aid": "2",
       "net": "ws",
-      "path": "/hablessh",
+      "path": "/zexs",
       "type": "none",
       "host": "",
       "tls": "tls"
@@ -49,7 +49,7 @@ cat>/etc/v2ray/$user-none.json<<EOF
       "id": "${uuid}",
       "aid": "2",
       "net": "ws",
-      "path": "/hablessh",
+      "path": "/zexs",
       "type": "none",
       "host": "${domain}",
       "tls": "none"
@@ -77,4 +77,4 @@ echo -e "================================="
 echo -e "link none TLS  : ${vmesslink2}"
 echo -e "================================="
 echo -e "Expired On     : $exp"
-echo -e "By Kojexs"
+echo -e "Script By Kojexs"
