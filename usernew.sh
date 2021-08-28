@@ -9,7 +9,7 @@ read -p "Expired (hari): " masaaktif
 
 IP=$(wget -qO- icanhazip.com);
 domain=$(cat /var/lib/premium-script/ipvps.conf)
-echo Script AutoCreate Akun SSH dan OpenVPN by Hablessh
+echo Script AutoCreate Akun SSH dan OpenVPN by Kojexs
 sleep 1
 echo Ping Host
 echo Cek Hak Akses...
@@ -47,4 +47,4 @@ echo -e "==============================="
 echo -e "GET / HTTP/1.1[crlf]Host: $domain[crlf]Upgrade: websocket[crlf][crlf]"
 echo -e "==============================="
 echo -e "Aktif Sampai   : $exp"
-echo -e "Script by HAWENG"
+echo -e "Script by Kojexs"
