@@ -1,5 +1,5 @@
 [Unit]
-Description=Websocket-SSH By HAWENG
+Description=Websocket-SSH By Kojexs
 Documentation=https://hablessh.tech
 After=network.target nss-lookup.target
 
